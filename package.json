@@ -1,0 +1,16 @@
+{
+  "name": "simple-react-module-mederation-app",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "scripts": {
+    "start:dev": "lerna exec -- yarn run start:dev",
+    "start:prod": "lerna exec -- yarn run start:prod",
+    "build": "lerna exec -- yarn run build"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
